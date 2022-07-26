@@ -1,6 +1,6 @@
 # Project 3 Business Landing Page
 
-![My Imge](./images/pexels-ekaterina-bolovtsova-6077326.jpg)
+![My Imge](./images/3.png)
 
 
 #### By Umang Pincha
