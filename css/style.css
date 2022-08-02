@@ -37,17 +37,16 @@ html {
   font-weight: 100;
 }
 
-.button-small {
+.button-small button{
   /* border: 2px solid red; */
   margin-top: 0.1rem;
   margin-left: 0.7rem;
   width: 10rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background-color: transparent;
   border-radius: 1rem;
   color: #58502a;
-  border-color: #58502a;
-  cursor: grab;
+  border: 1px solid #58502a;
 }
 
 .intro {
@@ -101,5 +100,20 @@ html {
     position: relative;
     left: 15rem; */
     text-align: center;
+  }
+}
+
+@media screen and (max-width:524px){
+  html{
+    font-size: 45%;
+    text-align: center;
+  }
+  .intro .left h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  .last img{
+    width: 100%;
+    margin-top: 20px;
   }
 }
